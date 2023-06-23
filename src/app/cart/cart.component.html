@@ -1,0 +1,41 @@
+<div class="contact-title">Your Cart with tasty Pizza</div>
+  
+  <div *ngFor = "let y of cart">
+    <div class="items-line">
+  <img src="{{y.img}}" width="70px" height="50px">
+  <p>Your tasty {{y.name}}</p>
+  <p>{{y.price}} €</p>
+</div>
+</div>
+<hr>
+<div><p>Products: {{total}} €</p></div>
+<div><p>Service Charge: {{tip}} €</p></div>
+<ng-template [ngIf]="totalAmount > 40">
+        <div><p>Discount: 15% </p></div>
+        <div><p>Total Amount: {{newTotal}} €</p></div>
+        </ng-template>
+<ng-template [ngIf]="totalAmount < 40">
+       <div><p>Total Amount: {{totalAmount}} €</p></div>
+        </ng-template>
+
+
+<div class="contact-title">Contact Details</div>
+<div class="container"><form [formGroup]="info" (ngSubmit)="onSubmit()">
+<div>
+  <div class="col-md-4">
+    <label for="name">Your Name: </label>
+    <input id="name" type="text" formControlName="yourName" class="form-control" placeholder="Your Name" aria-label="Your name">
+  </div>
+  <div class="col-md-4">
+    <label for="address">Your Address: </label>
+    <input id="address" type="text" formControlName="address" class="form-control" placeholder="Address" aria-label="Your Address">
+  </div>
+  <div class="col-md-4">
+    <label for="address">Your Phone Number: </label>
+    <input id="phone" type="text" formControlName="phone" class="form-control" placeholder="Phone Number" aria-label="Your Phone Number">
+  </div>
+</div>
+<div class="col-auto">
+    <button type="submit" class="btn btn-danger btn-submit">Submit</button>
+  </div>
+</form></div>

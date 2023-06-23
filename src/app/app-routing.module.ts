@@ -1,8 +1,29 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
+import { CartComponent } from './cart/cart.component';
+import { DetailsComponent } from './details/details.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './menu/menu.component';
 
-const routes: Routes = [];
-
+const routes: Routes = [{
+  path: "", component: HomeComponent
+}, {
+  path: "about", component: AboutComponent
+}, {
+  path: "cart", component: CartComponent
+}, {
+  path: "details/:index", component: DetailsComponent
+}, {
+  path: "footer", component: FooterComponent
+}, {
+  path: "menu", component: MenuComponent
+}, {
+  path: "**", redirectTo: ""
+}
+]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

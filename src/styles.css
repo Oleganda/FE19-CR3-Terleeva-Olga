@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Bungee';
+    src: format('https://fonts.googleapis.com/css2?family=Bungee&family=Cuprum&family=Freehand&family=Happy+Monkey&family=Krub:ital,wght@0,600;1,200&family=Lato&family=Roboto:wght@300;500&family=Ruslan+Display&family=Titillium+Web:ital,wght@0,200;0,300;1,200&display=swap');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

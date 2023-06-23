@@ -1,0 +1,48 @@
+* {
+    font-family: 'Bungee';
+}
+
+.text {
+    margin: auto;
+    position: absolute;
+    top: 190px;
+    width: 50%;
+    font-size: 100px;
+    background-color: rgba(5, 5, 5, 0.326);
+    color: white;
+}
+
+.text-container {
+    font-size: 150px;
+    color: rgb(225, 41, 1);
+}
+
+.small-text {
+    font-size: 20px;
+    color: black;
+
+}
+
+.question-line {
+    width: 100%;
+    color: black;
+    font-size: 50px;
+    margin: 70px 0 70px 0;
+    color: rgb(225, 41, 1);
+}
+
+.text-card {
+    color: rgb(254, 249, 249);
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.text-card1 {
+    color: rgb(6, 6, 6);
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.img-carousel {
+    object-fit: cover;
+}

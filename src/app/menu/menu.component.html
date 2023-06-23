@@ -1,0 +1,18 @@
+<div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-1">
+  <div *ngFor="let product of products; index as i">
+    <div class="card" style="width: 18rem;">
+      <img src="{{ product.img }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.shortDescription }}</p>
+        <ng-container *ngIf="product.availability">
+          <a routerLink="/details/{{ i }}" class="btn btn-primary">Details</a>
+          <a (click)="addToCart()" class="btn btn-primary">Add to Cart</a>
+        </ng-container>
+        <ng-container *ngIf="!product.availability">
+          Not available
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

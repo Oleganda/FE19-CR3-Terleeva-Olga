@@ -1,0 +1,30 @@
+* {
+    font-family: 'Bungee';
+}
+
+footer {
+    background-color: rgb(225, 41, 1);
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    width: 30px;
+    cursor: pointer;
+}
+
+.items {
+
+    height: 40px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px 0;
+}

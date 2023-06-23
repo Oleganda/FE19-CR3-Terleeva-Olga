@@ -1,0 +1,13 @@
+.icon {
+    width: 60px;
+}
+
+.navbar-main {
+    background-color: rgb(225, 41, 1);
+    font-family: 'Bungee';
+    color: yellow;
+    position: fixed;
+    margin-top: 40px;
+    height: 60px;
+    z-index: 2;
+}
