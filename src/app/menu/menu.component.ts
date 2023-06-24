@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
 
   addToCart(obj: Iproducts) {
     alert("Tasty Pizza is in your cart!");
-    this.mainCode.addToCart(this.product);
+    this.mainCode.addToCart(obj);
   }
 
   ngOnInit(): void {

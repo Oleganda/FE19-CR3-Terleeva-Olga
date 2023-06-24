@@ -9,8 +9,7 @@
           <a routerLink="/details/{{ i }}" class="btn btn-primary btn-details">Details</a>
           <a (click)="addToCart(product)" class="btn btn-primary btn-order">Order</a>
         </ng-container>
-        <ng-container *ngIf="!product.availability"><span class="notav">Not available</span>
-          
+        <ng-container *ngIf="!product.availability"><span class="notav">Not available</span> 
         </ng-container>
       </div>
     </div>
