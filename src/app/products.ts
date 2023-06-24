@@ -51,8 +51,7 @@ export const products = [
     {
         img: "./assets/photos/img7.jpg",
         name: "Detroit Pizza",
-        shortDescription: "",
-        longDescription: "",
+        shortDescription: "A pizza gets cooked by the high temperature achieved by employing burning wood",
         price: 17,
         availability: false
     },
