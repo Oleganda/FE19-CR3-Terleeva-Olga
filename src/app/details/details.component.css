@@ -1,0 +1,17 @@
+* {
+    font-family: 'Bungee';
+}
+
+.main-card {
+    margin: 130px 0 130px 0;
+    font-size: 20px;
+}
+
+.text {
+    padding-top: 150px;
+}
+
+.btn-order {
+    background-color: rgb(225, 41, 1);
+    border: 1px solid rgb(225, 41, 1);
+}

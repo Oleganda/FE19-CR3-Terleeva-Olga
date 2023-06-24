@@ -1,0 +1,51 @@
+* {
+    font-family: 'Bungee';
+}
+
+.notav {
+    color: red;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0 100px 0;
+    font-weight: lighter;
+
+}
+
+img {
+    height: 200px;
+
+}
+
+.description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-details {
+    margin-right: 13px;
+    background-color: rgb(225, 41, 1);
+    border: 1px solid rgb(225, 41, 1);
+}
+
+.btn-order {
+    background-color: rgb(225, 41, 1);
+    border: 1px solid rgb(225, 41, 1);
+}
+
+@media screen and (max-width: 992px) {
+    .main-grid {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-grid {
+
+        grid-template-columns: repeat(1, 500px);
+        margin-left: 55%;
+    }
+}

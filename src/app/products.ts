@@ -1,7 +1,7 @@
 export const products = [
     {
         img: "/assets/photos/img1.jpg",
-        name: "Chicago Style",
+        name: "Chicago Style Pizza",
         shortDescription: "A Chicago-style pizza is prepared using several different styles developed in Chicago.",
         longDescription: "The best way to prepare a deep-dish pizza is to layer the ingredients in the correct order properly. Adequate oil should also be placed in the pan, so the thick pizza sides get properly baked.",
         price: 14,
@@ -19,7 +19,7 @@ export const products = [
     {
         img: "./assets/photos/img9.jpg",
         name: "Neapolitan Pizza",
-        shortDescription: "Largely defined by its pillowy and chewy crust, a Neapolitan pizza is more sauce than cheese.",
+        shortDescription: "Largely defined by its pillowy and chewy crust, a Neapolitan pizza is more sauce.",
         longDescription: "If you want to enjoy an authentic Neapolitan pizza, make sure you make the base using refined wheat flour and bake it for 60 to 90 seconds at 700 ° to 1000 ° F.",
         price: 16,
         availability: true
@@ -35,7 +35,7 @@ export const products = [
     {
         img: "./assets/photos/img5.jpg",
         name: "Greek Pizza",
-        shortDescription: "A Greek pizza is prepared in a metal pan rather than getting stretched my hands and baked in an oven.",
+        shortDescription: "Pizza is prepared in a metal pan rather than getting stretched my hands and baked in an oven.",
         longDescription: "To bake a Greek pizza to perfection, make sure to use a deep pan for baking the pizza. You can also use a generous amount of olive oil to give it an authentic touch.",
         price: 14,
         availability: true

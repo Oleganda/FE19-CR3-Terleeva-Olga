@@ -1,14 +1,21 @@
-<div class="contact-title">Your Cart with tasty Pizza</div>
+<div class="contact-title">Your Cart with tasty Pizza:</div>
   
+<!-- styling of checkout -->
+<div main-grid>
   <div *ngFor = "let y of cart">
     <div class="items-line">
-  <img src="{{y.img}}" width="70px" height="50px">
+  <img src="{{y.img}}" width="120px" height="100px">
   <p>Your tasty {{y.name}}</p>
   <p>{{y.price}} €</p>
 </div>
 </div>
 <hr>
-<div><p>Products: {{total}} €</p></div>
+
+  <!-- Payment information -->
+  <div class="container text-center">
+  <div class="row row-cols-2">
+    <div class="col"> Pay now and get pizza in 30 minutes</div>
+    <div class="col"><div><p>Products: {{total}} €</p></div>
 <div><p>Service Charge: {{tip}} €</p></div>
 <ng-template [ngIf]="totalAmount > 40">
         <div><p>Discount: 15% </p></div>
@@ -17,22 +24,25 @@
 <ng-template [ngIf]="totalAmount < 40">
        <div><p>Total Amount: {{totalAmount}} €</p></div>
         </ng-template>
+  </div></div>
+  </div>
+</div>
+<!-- Payment information end -->
 
-
-<div class="contact-title">Contact Details</div>
-<div class="container"><form [formGroup]="info" (ngSubmit)="onSubmit()">
+<div class="contact-title">Contact Details:</div>
+<div class="container table-main"><form [formGroup]="info" (ngSubmit)="onSubmit()">
 <div>
   <div class="col-md-4">
     <label for="name">Your Name: </label>
-    <input id="name" type="text" formControlName="yourName" class="form-control" placeholder="Your Name" aria-label="Your name">
+    <input id="name" type="text" formControlName="yourName" class="form-control" placeholder="" aria-label="Your name">
   </div>
   <div class="col-md-4">
     <label for="address">Your Address: </label>
-    <input id="address" type="text" formControlName="address" class="form-control" placeholder="Address" aria-label="Your Address">
+    <input id="address" type="text" formControlName="address" class="form-control" placeholder="" aria-label="Your Address">
   </div>
   <div class="col-md-4">
     <label for="address">Your Phone Number: </label>
-    <input id="phone" type="text" formControlName="phone" class="form-control" placeholder="Phone Number" aria-label="Your Phone Number">
+    <input id="phone" type="text" formControlName="phone" class="form-control" placeholder="" aria-label="Your Phone Number">
   </div>
 </div>
 <div class="col-auto">

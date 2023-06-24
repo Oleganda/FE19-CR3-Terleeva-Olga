@@ -18,7 +18,7 @@ export class MenuComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute, private mainCode: MaincodeService) {
   }
 
-  addToCart() {
+  addToCart(obj: Iproducts) {
     alert("Tasty Pizza is in your cart!");
     this.mainCode.addToCart(this.product);
   }

@@ -1,0 +1,30 @@
+* {
+    font-family: 'Bungee';
+}
+
+.contact-title {
+    font-size: 50px;
+    color: rgb(225, 41, 1);
+    margin: 50px;
+    text-align: center;
+}
+
+.items-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+/* styling form */
+
+.table-main {
+    margin: 50px 0 50px 0;
+    align-items: center;
+
+}
+
+.btn-submit {
+    margin-top: 20px;
+}
