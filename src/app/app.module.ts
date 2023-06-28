@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
 import { MenuComponent } from './menu/menu.component';
 import { DetailsComponent } from './details/details.component';
 import { CartComponent } from './cart/cart.component';
@@ -18,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    AboutComponent,
     MenuComponent,
     DetailsComponent,
     CartComponent

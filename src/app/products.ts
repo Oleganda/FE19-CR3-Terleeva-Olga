@@ -1,6 +1,6 @@
 export const products = [
     {
-        img: "/assets/photos/img1.jpg",
+        img: "/assets/photos/img7.jpg",
         name: "Chicago Style Pizza",
         shortDescription: "A Chicago-style pizza is prepared using several different styles developed in Chicago.",
         longDescription: "The best way to prepare a deep-dish pizza is to layer the ingredients in the correct order properly. Adequate oil should also be placed in the pan, so the thick pizza sides get properly baked.",
