@@ -56,9 +56,17 @@
         visibility: hidden;
     }
 
-    .main3 {
-        visibility: hidden;
+    .question-line {
+        margin: 30;
+        font-size: 160%;
     }
+
+    .pizza {
+        width: 100%;
+        margin: 0;
+
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -66,5 +74,16 @@
 
         grid-template-columns: repeat(1, 500px);
         margin-left: 55%;
+    }
+
+    .question-line {
+        margin: 10px;
+        font-size: 160%;
+    }
+
+    .pizza {
+        width: 200%;
+        margin: 0;
+
     }
 }
